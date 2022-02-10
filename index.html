@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Mini Airlines</title>
+    <nav id="myNav" class="overlay">
+        <div class="overlay-content">
+            <img src="./images/logo.png" alt="Logo" height="100" width="100"/>
+            <h1>Welcome to Mini Insta.</h1>
+        </div>
+    </nav>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</header>
+
+<main id="home">
+    <section id="stories">
+        
+        <div id="category">
+            <h2>Instagram Page suggestions by Category</h2>
+            <div id="category-left">
+                <div class="poster" id="panel1">
+                    <h3>Business <img src="./images/business.jpeg" onclick="loadSuggestions('business')"></h3>
+                </div>
+
+                <div class="poster" id="panel2">
+                    <h3>Science <img src="./images/science.jpeg" onclick="loadSuggestions('science')"></h3>
+                </div>
+            </div>
+            <div id="category-right">
+                <div class="poster" id="panel3">
+                    <h3>Entertainmet<img src="./images/entertainment.jpeg" onclick="loadSuggestions('entertainment')"></h3>
+                </div>
+
+                <div class="poster" id="panel4">
+                    <h3>Sports<img src="./images/sports.jpeg" onclick="loadSuggestions('sports')"></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Awards information -->
+    <div id='myModal' class='modal'>
+        <span class="close">
+            <div class='modal-content'>
+                <img class="modal_image" id="modal_image1" src=""/>
+                <p id="textcontent1"></p>
+            </div>
+            <div class='modal-content'>
+                <img class="modal_image" id="modal_image2" src=""/>
+                <p id="textcontent2"></p>
+            </div>
+            <div class='modal-content'>
+                <img class="modal_image" id="modal_image3" src=""/>
+                <p id="textcontent3"></p>
+            </div>
+            <div class='modal-content'>
+                <img class="modal_image" id="modal_image4" src=""/>
+                <p id="textcontent4"></p>
+            </div>
+            <div class='modal-content'>
+                <img class="modal_image" id="modal_image5" src=""/>
+                <p id="textcontent5"></p>
+            </div>
+        </span>
+    </div>
+</main>
+<!-- Footer  -->
+<footer>
+    <p>&copy; All rights reserved to Ashokchakravarthi Nagarajan. For any disputes email to <u><a href="emailto:ashokcs@zoho.com">Ashok</a></u></a></p>
+</footer>
+</html>
